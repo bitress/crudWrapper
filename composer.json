@@ -1,0 +1,23 @@
+{
+    "name": "bitress/crud-wrapper",
+    "description": "To simplify the implementation of CRUD (Create, Read, Update, Delete) operations in PHP applications",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["crud", "database", "php", "pdo"],
+    "authors": [
+        {
+            "name": "bitress",
+            "email": "byteress@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bitress\\CrudWrapper\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "require": {
+        "ext-pdo": "*"
+    }
+}
